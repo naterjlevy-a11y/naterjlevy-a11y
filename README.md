@@ -1,46 +1,47 @@
-<h1 align="center">Hi, I'm @naterjlevy 👋</h1>
+## Hi, I'm Nate
 
-<p align="center">
-  Incoming <b>Mechanical Engineering</b> student at <b>McGill University</b> who builds software.<br>
-  I like turning a rough idea into something real you can actually run — native macOS apps, ML experiments, and tools I wish existed.
-</p>
+Mechanical engineering student at McGill University, on the vehicle dynamics team at McGill Formula Electric. I build hardware and the software that runs it.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/McGill-Mechanical%20Engineering-ED1B2F?style=flat-square" alt="McGill Mech Eng">
-  <img src="https://img.shields.io/badge/Focus-Building%20%26%20Shipping-2563eb?style=flat-square" alt="Building & Shipping">
-</p>
+This summer I was a junior software engineer intern at Sentry Devices in Vancouver, building the operator app and a fleet simulator for their Bluetooth shipment trackers.
+
+I'm looking for a **Summer 2027 internship in mechanical or hardware engineering.**
+
+**Portfolio:** [natelevy.tech](https://natelevy.tech) &nbsp;·&nbsp; **LinkedIn:** [naterjlevy](https://www.linkedin.com/in/naterjlevy) &nbsp;·&nbsp; **Email:** nate.levy@mail.mcgill.ca
 
 ---
 
-### 🛠️ What I work with
+### Hardware
 
-`Swift / SwiftUI` &nbsp;·&nbsp; `Python` &nbsp;·&nbsp; `TypeScript / Next.js` &nbsp;·&nbsp; `macOS / AppKit` &nbsp;·&nbsp; `Supabase` &nbsp;·&nbsp; `Data analysis & ML`
+**[Sonar Guard](https://github.com/naterjlevy-a11y/sonar-guard)** · Arduino, C++, JavaScript
+An ultrasonic turret that learns what a room looks like, then sweeps it, tracks anything new and asks for a code. Interrupt-timed sensing, a per-slice statistical baseline, and a Web Serial dashboard. [Try the live demo](https://natelevy.tech/demo/sonar-guard/?demo).
 
-I'm most at home where engineering rigor meets hands-on building — measuring something carefully, then shipping a tool around it.
+**[Scanning Rover](https://github.com/naterjlevy-a11y/scanning-rover)** · Arduino, C++
+An obstacle-avoiding rover that scans three headings with an ultrasonic sensor on a servo and steers with differential-PWM arcs.
+
+**[Desk Synth](https://github.com/naterjlevy-a11y/desk-synth)** · Arduino, C++
+An air instrument where your hand's distance from an ultrasonic sensor picks the note. Piano, chords, a drum machine and a theremin.
+
+**[Voice-Note Pendant](https://github.com/naterjlevy-a11y/pocket-recorder)** · OpenSCAD
+A press-to-talk recorder designed to fit inside a 6 mm steel bar. In progress.
+
+### Software
+
+**[Cadence](https://github.com/naterjlevy-a11y/Cadence)** · Swift, SwiftUI
+A macOS dictation app that sends what you say to whichever app you name. Signed and notarized by Apple, [download it here](https://github.com/naterjlevy-a11y/Cadence/releases).
+
+**[Desky](https://github.com/naterjlevy-a11y/Desky)** · JavaScript, Supabase
+Offline-first voice capture that files notes into my calendar or task list.
+
+**[Found It!](https://found-it.me)** · Swift
+macOS file search by what's inside a file, using OCR and on-device embeddings. The app is private; the [site](https://github.com/naterjlevy-a11y/foundit-landing) is open source.
+
+Also: [FixPrompt](https://github.com/naterjlevy-a11y/fixprompt) (explains failed terminal commands) and [Claude Code, Remotely](https://github.com/naterjlevy-a11y/claude-code-discord-bot) (the macOS side of a Discord-to-terminal bridge).
+
+### Research
+
+**[Whale Signals](https://natelevy.tech/work/whale-signals)** · Python, pandas, SciPy
+An event study of whether large Polymarket bets predict moves in related stocks, across 604 markets and 16,731 observations. [Read the paper](https://natelevy.tech/work/whale-signals/paper).
 
 ---
 
-### 🚀 Featured projects
-
-**📈 [polymarket-whale-signals](https://github.com/naterjlevy-a11y/polymarket-whale-signals)** &nbsp;·&nbsp; `Python`
-> An empirical study asking a real question: *do Polymarket "whale" signals precede abnormal equity returns?* OLS event-study methodology plus a live paper-trading dashboard. The kind of measure-first, prove-it-with-data thinking I want to bring into engineering.
-
-**🤖 [claude-code-discord-bot](https://github.com/naterjlevy-a11y/claude-code-discord-bot)** &nbsp;·&nbsp; `Python`
-> Drive an AI coding agent on my laptop from a Discord channel on my phone. I took a Windows-only tool and wrote a full **macOS port** from scratch — bot owns a pseudo-terminal (`pty` + `pyte`), injects keystrokes, and reads back the rendered screen; tool actions become tappable Approve/Deny buttons.
-
-**✂️ [CutHub](https://github.com/naterjlevy-a11y/CutHub)** &nbsp;·&nbsp; `Swift`
-> A macOS menu-bar app for voice commands, keyboard shortcuts, speaker ID, and multi-app scenes — control your machine without breaking flow.
-
-**🔎 [Found It!](https://found-it.me)** &nbsp;·&nbsp; `Swift · TypeScript` &nbsp;·&nbsp; live at [found-it.me](https://found-it.me)
-> A macOS app that searches your files by *meaning*, not just their names. The app is private; its [marketing site](https://github.com/naterjlevy-a11y/foundit-landing) (Next.js, deployed to GitHub Pages) is open source.
-
-**🎙️ Mellotron** &nbsp;·&nbsp; `Swift / SwiftUI` &nbsp;·&nbsp; *private*
-> A native macOS push-to-talk dictation router. Hold a key, say where your words go ("Hey Claude…"), speak, release — it focuses the right app, strips the routing phrase, cleans up the speech, and pastes the result. On-device speech, privacy-first, built as a clean state machine. *(Private — happy to walk through it.)*
-
----
-
-### 📫 Reach me
-
-- GitHub: [@naterjlevy-a11y](https://github.com/naterjlevy-a11y)
-
-<p align="center"><sub>Always building something. More on the way.</sub></p>
+**Tools:** Arduino and embedded C++ · Python · JavaScript · TypeScript · Swift · React Native · SQL · OpenSCAD · Git
