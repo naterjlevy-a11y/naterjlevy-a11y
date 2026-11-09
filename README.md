@@ -1,10 +1,10 @@
 ## Hi, I'm Nate
 
-Mechanical engineering student at McGill University, on the vehicle dynamics team at McGill Formula Electric. I build hardware and the software that runs it.
+Mechanical engineering student at McGill University, on the vehicle dynamics team at McGill Formula Electric. I build hardware, the software that runs it, and machine-learning models.
 
-This summer I was a junior software engineer intern at Sentry Devices in Vancouver, building the operator app and a fleet simulator for their Bluetooth shipment trackers.
+This summer I was a software engineering intern at Sentry Devices in Vancouver, building the operator app and a fleet simulator for their Bluetooth shipment trackers.
 
-I'm looking for a **Summer 2027 internship in mechanical or hardware engineering.**
+I'm looking for a **Summer 2027 internship in aerospace, drones or autonomous systems**, where mechanical design meets software and AI.
 
 **Portfolio:** [natelevy.tech](https://natelevy.tech) &nbsp;·&nbsp; **LinkedIn:** [naterjlevy](https://www.linkedin.com/in/naterjlevy) &nbsp;·&nbsp; **Email:** nate.levy@mail.mcgill.ca
 
